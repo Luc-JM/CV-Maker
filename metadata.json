@@ -1,0 +1,6 @@
+{
+  "name": "CV Maker Pro",
+  "description": "Minimalistische split-screen CV maker met live A4 preview, meerdere sjablonen (Circulair, Modern, Luxe, Professioneel), PDF-export en lokale opslag.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
