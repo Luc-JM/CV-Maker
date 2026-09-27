@@ -306,7 +306,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="text"
                     value={data.personal.fullName}
                     onChange={(e) => updatePersonal('fullName', e.target.value)}
-                    placeholder="bijv. Luc Meijerink"
+                    placeholder="bijv. Jan de Vries"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -319,7 +319,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="text"
                     value={data.personal.title}
                     onChange={(e) => updatePersonal('title', e.target.value)}
-                    placeholder="bijv. Student Finance & Control"
+                    placeholder="bijv. Marketing & Communicatie Specialist"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -335,7 +335,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="email"
                     value={data.personal.email}
                     onChange={(e) => updatePersonal('email', e.target.value)}
-                    placeholder="bijv. lucmeijerink@gmail.com"
+                    placeholder="bijv. jan.devries@email.nl"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -349,7 +349,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="tel"
                     value={data.personal.phone}
                     onChange={(e) => updatePersonal('phone', e.target.value)}
-                    placeholder="bijv. +31-615474407"
+                    placeholder="bijv. +31 6 12345678"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -365,7 +365,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="text"
                     value={data.personal.address}
                     onChange={(e) => updatePersonal('address', e.target.value)}
-                    placeholder="bijv. Dolderseweg 274A"
+                    placeholder="bijv. Keizersgracht 421"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -378,7 +378,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                     type="text"
                     value={data.personal.postalCodeCity}
                     onChange={(e) => updatePersonal('postalCodeCity', e.target.value)}
-                    placeholder="bijv. 3734BS Den Dolder"
+                    placeholder="bijv. 1016 EK Amsterdam"
                     className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                 </div>
@@ -540,7 +540,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                         type="text"
                         value={item.company}
                         onChange={(e) => updateExperience(item.id, 'company', e.target.value)}
-                        placeholder="bijv. Capgemini Engineering B.V."
+                        placeholder="bijv. Brandflow Media B.V."
                         className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                       />
                     </div>
@@ -553,7 +553,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                         type="text"
                         value={item.location}
                         onChange={(e) => updateExperience(item.id, 'location', e.target.value)}
-                        placeholder="bijv. Utrecht Leidsche Rijn"
+                        placeholder="bijv. Amsterdam"
                         className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                       />
                     </div>
@@ -683,7 +683,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                         type="text"
                         value={item.institution}
                         onChange={(e) => updateEducation(item.id, 'institution', e.target.value)}
-                        placeholder="bijv. Avans Hogeschool"
+                        placeholder="bijv. Universiteit van Amsterdam"
                         className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                       />
                     </div>
@@ -696,7 +696,7 @@ export const CVForm: React.FC<CVFormProps> = ({ data, onChange }) => {
                         type="text"
                         value={item.location}
                         onChange={(e) => updateEducation(item.id, 'location', e.target.value)}
-                        placeholder="bijv. 's-Hertogenbosch"
+                        placeholder="bijv. Amsterdam"
                         className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-500"
                       />
                     </div>

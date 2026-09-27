@@ -49,3 +49,15 @@ export interface CVConfig {
   font: FontType;
   spacing: SpacingType;
 }
+
+export interface CVHistoryItem {
+  id: string;
+  timestamp: number;
+  title: string;
+  subtitle?: string;
+  label: string;
+  data: CVData;
+  config: CVConfig;
+  type: 'manual' | 'auto';
+}
+
